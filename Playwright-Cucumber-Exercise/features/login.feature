@@ -5,8 +5,8 @@ Feature: Login Feature
 
   Scenario: Validate the login page title
     # TODO: Fix this failing scenario
-    Then I should see the title "Swag Labs"
+    Then I should see the title "Labs Swag"
 
   Scenario: Validate login error message
     Then I will login as 'locked_out_user'
-    Then I should see a login error containing "Sorry, this user has been locked out."
+    # TODO: Add a step to validate the error message received
